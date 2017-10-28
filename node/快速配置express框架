@@ -1,0 +1,29 @@
+Last login: Tue Oct 24 09:14:23 on ttys000
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/nodesandbox 
+zhaoshuai:nodesandbox Ivan$ cd 11.node7
+zhaoshuai:11.node7 Ivan$ npm init --yes
+Wrote to /Users/lanou3g/Desktop/nodesandbox/11.node7/package.json:
+
+{
+  "name": "11.node7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+zhaoshuai:11.node7 Ivan$ cnpm install express --save
+^C
+zhaoshuai:11.node7 Ivan$ cnpm install express --save
+✔ Installed 1 packages
+✔ Linked 46 latest versions
+✔ Run 0 scripts
+Recently updated (since 2017-10-17): 1 packages (detail see file /Users/lanou3g/Desktop/nodesandbox/11.node7/node_modules/.recently_updates.txt)
+✔ All packages installed (49 packages installed from npm registry, used 2s, speed 62.74kB/s, json 47(102.2kB), tarball 0B)
+zhaoshuai:11.node7 Ivan$ 

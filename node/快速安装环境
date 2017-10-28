@@ -1,0 +1,293 @@
+Last login: Tue Oct 24 10:14:14 on ttys000
+zhaoshuai:~ Ivan$ cd Desktop/nodesandbox/todoapp
+zhaoshuai:todoapp Ivan$ npm init --yes
+Wrote to /Users/lanou3g/Desktop/nodesandbox/todoapp/package.json:
+
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+zhaoshuai:todoapp Ivan$ cnpm install express ejs body-parser --save
+✔ Installed 3 packages
+✔ Linked 45 latest versions
+✔ Run 0 scripts
+Recently updated (since 2017-10-17): 1 packages (detail see file /Users/lanou3g/Desktop/nodesandbox/todoapp/node_modules/.recently_updates.txt)
+✔ All packages installed (50 packages installed from npm registry, used 1s, speed 75.49kB/s, json 48(105.91kB), tarball 0B)
+zhaoshuai:todoapp Ivan$ nodemon app.js
+[nodemon] 1.12.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+{ [Function: app]
+  domain: undefined,
+  _events: { mount: [Function: onmount] },
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: {},
+  settings: 
+   { 'x-powered-by': true,
+     etag: 'weak',
+     'etag fn': [Function: generateETag],
+     env: 'development',
+     'query parser': 'extended',
+     'query parser fn': [Function: parseExtendedQueryString],
+     'subdomain offset': 2,
+     'trust proxy': false,
+     'trust proxy fn': [Function: trustNone],
+     view: [Function: View],
+     views: '/Users/lanou3g/Desktop/nodesandbox/todoapp/views',
+     'jsonp callback name': 'callback' },
+  _eventsCount: 1,
+  locals: 
+   { settings: 
+      { 'x-powered-by': true,
+        etag: 'weak',
+        'etag fn': [Function: generateETag],
+        env: 'development',
+        'query parser': 'extended',
+        'query parser fn': [Function: parseExtendedQueryString],
+        'subdomain offset': 2,
+        'trust proxy': false,
+        'trust proxy fn': [Function: trustNone],
+        view: [Function: View],
+        views: '/Users/lanou3g/Desktop/nodesandbox/todoapp/views',
+        'jsonp callback name': 'callback' } },
+  mountpath: '/' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+{ [Function: app]
+  domain: undefined,
+  _events: { mount: [Function: onmount] },
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: {},
+  settings: 
+   { 'x-powered-by': true,
+     etag: 'weak',
+     'etag fn': [Function: generateETag],
+     env: 'development',
+     'query parser': 'extended',
+     'query parser fn': [Function: parseExtendedQueryString],
+     'subdomain offset': 2,
+     'trust proxy': false,
+     'trust proxy fn': [Function: trustNone],
+     view: [Function: View],
+     views: '/Users/lanou3g/Desktop/nodesandbox/todoapp/views',
+     'jsonp callback name': 'callback' },
+  _eventsCount: 1,
+  locals: 
+   { settings: 
+      { 'x-powered-by': true,
+        etag: 'weak',
+        'etag fn': [Function: generateETag],
+        env: 'development',
+        'query parser': 'extended',
+        'query parser fn': [Function: parseExtendedQueryString],
+        'subdomain offset': 2,
+        'trust proxy': false,
+        'trust proxy fn': [Function: trustNone],
+        view: [Function: View],
+        views: '/Users/lanou3g/Desktop/nodesandbox/todoapp/views',
+        'jsonp callback name': 'callback' } },
+  mountpath: '/' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+rs
+[nodemon] starting `node app.js`
+

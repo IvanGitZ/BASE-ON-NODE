@@ -1,0 +1,23 @@
+Last login: Tue Oct 24 10:00:45 on ttys000
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/nodesandbox 
+zhaoshuai:nodesandbox Ivan$ cd 11.node7
+zhaoshuai:11.node7 Ivan$ cnpm install ejs --save
+✔ Installed 1 packages
+✔ Linked 0 latest versions
+✔ Run 0 scripts
+✔ All packages installed (1 packages installed from npm registry, used 2s, speed 21.13kB/s, json 1(3.71kB), tarball 32.86kB)
+zhaoshuai:11.node7 Ivan$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

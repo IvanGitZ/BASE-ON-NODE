@@ -1,0 +1,45 @@
+Last login: Mon Oct 23 15:03:14 on ttys000
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/nodesandbox 
+zhaoshuai:nodesandbox Ivan$ cd 10.node6
+zhaoshuai:10.node6 Ivan$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (10.node6) 
+version: (1.0.0) 
+description: syudy how to use npm in our project
+entry point: (index.js) app.js
+test command: 
+git repository: 
+keywords: npm
+author: Ivan
+license: (ISC) 
+About to write to /Users/lanou3g/Desktop/nodesandbox/10.node6/package.json:
+
+{
+  "name": "10.node6",
+  "version": "1.0.0",
+  "description": "syudy how to use npm in our project",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Ivan",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+zhaoshuai:10.node6 Ivan$ 
