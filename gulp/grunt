@@ -1,0 +1,326 @@
+Last login: Wed Oct 25 10:43:44 on ttys000
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/gulpapp 
+zhaoshuai:gulpapp Ivan$ cnpm install gulp-uglify --save-dev
+✔ Installed 1 packages
+✔ Linked 10 latest versions
+✔ Run 0 scripts
+Recently updated (since 2017-10-18): 1 packages (detail see file /Users/lanou3g/Desktop/gulpapp/node_modules/.recently_updates.txt)
+✔ All packages installed (8 packages installed from npm registry, used 6s, speed 109.52kB/s, json 11(30.93kB), tarball 649.96kB)
+zhaoshuai:gulpapp Ivan$ gulp ugLifyJs
+[14:46:36] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[14:46:36] Starting 'ugLifyJs'...
+[14:46:36] 'ugLifyJs' errored after 6.65 ms
+[14:46:36] ReferenceError: ugLifyJs is not defined
+    at Gulp.gulp.task (/Users/lanou3g/Desktop/gulpapp/gulpfile.js:47:28)
+    at module.exports (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/lib/runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:273:3)
+    at Gulp.Orchestrator._runStep (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:214:10)
+    at Gulp.Orchestrator.start (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:134:8)
+    at /usr/local/lib/node_modules/gulp/bin/gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+    at Module.runMain (module.js:606:11)
+    at run (bootstrap_node.js:383:7)
+zhaoshuai:gulpapp Ivan$ gulp ugLifyJs
+[14:47:36] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[14:47:36] Starting 'ugLifyJs'...
+[14:47:36] Finished 'ugLifyJs' after 8.7 ms
+zhaoshuai:gulpapp Ivan$ cnpm install gulp-sass --save-dev
+✔ Installed 1 packages
+✔ Linked 124 latest versions
+Downloading binary from https://npm.taobao.org/mirrors/node-sass/v4.5.3/darwin-x64-48_binding.node
+Download complete
+Binary saved to /Users/lanou3g/Desktop/gulpapp/node_modules/_node-sass@4.5.3@node-sass/vendor/darwin-x64-48/binding.node
+Caching binary to /Users/lanou3g/.npminstall_tarball/node-sass/4.5.3/darwin-x64-48_binding.node
+Binary found at /Users/lanou3g/Desktop/gulpapp/node_modules/_node-sass@4.5.3@node-sass/vendor/darwin-x64-48/binding.node
+Testing binary
+Binary is fine
+✔ Run 1 scripts
+Recently updated (since 2017-10-18): 2 packages (detail see file /Users/lanou3g/Desktop/gulpapp/node_modules/.recently_updates.txt)
+  Today:
+    → gulp-sass@3.1.0 › node-sass@4.5.3 › request@2.83.0 › har-validator@5.0.3 › ajv@^5.1.0(5.3.0) (03:00:24)
+    → gulp-sass@3.1.0 › node-sass@4.5.3 › request@2.83.0 › har-validator@5.0.3 › ajv@5.3.0 › fast-json-stable-stringify@^2.0.0(2.0.0) (01:44:01)
+✔ All packages installed (98 packages installed from npm registry, used 1m, speed 32.07kB/s, json 125(246.35kB), tarball 2.18MB)
+zhaoshuai:gulpapp Ivan$ gulp copyHtml
+[15:38:57] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[15:38:57] Starting 'copyHtml'...
+[15:38:57] Finished 'copyHtml' after 6.81 ms
+zhaoshuai:gulpapp Ivan$ gulp sass
+[15:39:04] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[15:39:04] Starting 'sass'...
+[15:39:04] Finished 'sass' after 8.55 ms
+zhaoshuai:gulpapp Ivan$ gulp
+[15:43:20] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[15:43:20] Starting 'message'...
+执行具体任务,需要在终端中运行 gulp message(任务名)
+[15:43:20] Finished 'message' after 115 μs
+[15:43:20] Starting 'copyHtml'...
+[15:43:20] Finished 'copyHtml' after 6.91 ms
+[15:43:20] Starting 'imageMin'...
+[15:43:20] Finished 'imageMin' after 3.2 ms
+[15:43:20] Starting 'sass'...
+[15:43:20] Finished 'sass' after 1.42 ms
+[15:43:20] Starting 'ugLifyJs'...
+[15:43:20] Finished 'ugLifyJs' after 1.03 ms
+[15:43:20] Starting 'default'...
+[15:43:20] Finished 'default' after 5.35 μs
+[15:43:21] gulp-imagemin: Minified 4 images (saved 116 kB - 3.9%)
+zhaoshuai:gulpapp Ivan$ gulp
+[15:47:54] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[15:47:54] Starting 'message'...
+执行具体任务,需要在终端中运行 gulp message(任务名)
+[15:47:54] Finished 'message' after 115 μs
+[15:47:54] Starting 'copyHtml'...
+[15:47:54] Finished 'copyHtml' after 6.84 ms
+[15:47:54] Starting 'imageMin'...
+[15:47:54] Finished 'imageMin' after 3.16 ms
+[15:47:54] Starting 'sass'...
+[15:47:54] Finished 'sass' after 1.42 ms
+[15:47:54] Starting 'ugLifyJs'...
+[15:47:54] Finished 'ugLifyJs' after 1.26 ms
+[15:47:54] Starting 'default'...
+[15:47:54] Finished 'default' after 7.95 μs
+[15:47:55] gulp-imagemin: Minified 4 images (saved 116 kB - 3.9%)
+zhaoshuai:gulpapp Ivan$ gulp watch
+[15:48:56] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[15:48:56] Starting 'watch'...
+[15:48:56] Finished 'watch' after 13 ms
+[15:49:24] Starting 'copyHtml'...
+[15:49:24] Finished 'copyHtml' after 7.36 ms
+^C
+zhaoshuai:gulpapp Ivan$ cnpm install gulp-webserver --save-dev
+✔ Installed 1 packages
+✔ Linked 81 latest versions
+✔ Run 0 scripts
+Recently updated (since 2017-10-18): 1 packages (detail see file /Users/lanou3g/Desktop/gulpapp/node_modules/.recently_updates.txt)
+✔ All packages installed (80 packages installed from npm registry, used 13s, speed 52.08kB/s, json 82(148.58kB), tarball 542.97kB)
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:03:29] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:03:29] Starting 'mywebserver'...
+[16:03:29] Webserver started at http://localhost:8080
+[16:03:29] Finished 'mywebserver' after 26 ms
+^Z
+[1]+  Stopped                 gulp mywebserver
+zhaoshuai:gulpapp Ivan$ gulp mywatch
+[16:09:49] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:09:49] Starting 'mywatch'...
+[16:09:49] Finished 'mywatch' after 8.41 ms
+^C
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:10:15] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:10:15] Starting 'mywebserver'...
+[16:10:15] Webserver started at http://localhost:8080
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at net.js:1408:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+zhaoshuai:gulpapp Ivan$ gulp mywatch
+[16:10:59] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:10:59] Starting 'mywatch'...
+[16:10:59] 'mywatch' errored after 370 μs
+[16:10:59] TypeError: gulp.mywatch is not a function
+    at Gulp.gulp.task (/Users/lanou3g/Desktop/gulpapp/gulpfile.js:71:7)
+    at module.exports (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/lib/runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:273:3)
+    at Gulp.Orchestrator._runStep (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:214:10)
+    at Gulp.Orchestrator.start (/Users/lanou3g/Desktop/gulpapp/node_modules/_orchestrator@0.3.8@orchestrator/index.js:134:8)
+    at /usr/local/lib/node_modules/gulp/bin/gulp.js:129:20
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+    at Module.runMain (module.js:606:11)
+    at run (bootstrap_node.js:383:7)
+zhaoshuai:gulpapp Ivan$ gulp mywatch
+[16:11:13] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:11:13] Starting 'mywatch'...
+[16:11:13] Finished 'mywatch' after 8.53 ms
+^C
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:11:24] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:11:24] Starting 'mywebserver'...
+[16:11:24] Webserver started at http://localhost:8080
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at net.js:1408:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:11:33] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:11:33] Starting 'mywebserver'...
+[16:11:33] Webserver started at http://localhost:8080
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at net.js:1408:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:12:01] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:12:01] Starting 'mywebserver'...
+[16:12:01] Webserver started at http://localhost:8080
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:8080
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at net.js:1408:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:12:47] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:12:47] Starting 'mywebserver'...
+[16:12:47] Webserver started at http://localhost:4000
+[16:12:47] Finished 'mywebserver' after 27 ms
+^Z
+[2]+  Stopped                 gulp mywebserver
+zhaoshuai:gulpapp Ivan$ 
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:13:48] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:13:48] Starting 'mywebserver'...
+[16:13:48] Webserver started at http://localhost:4000
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:4000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at net.js:1408:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+zhaoshuai:gulpapp Ivan$ gulp mywebserver
+[16:14:00] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[16:14:00] Starting 'mywebserver'...
+[16:14:00] Webserver started at http://localhost:8000
+[16:14:00] Finished 'mywebserver' after 29 ms
+^C
+zhaoshuai:gulpapp Ivan$ cd ..
+zhaoshuai:Desktop Ivan$ cd ..
+zhaoshuai:~ Ivan$ sudo npm install -g grunt-cli
+Password:
+/usr/local/bin/grunt -> /usr/local/lib/node_modules/grunt-cli/bin/grunt
+/usr/local/lib
+└─┬ grunt-cli@1.2.0 
+  ├─┬ findup-sync@0.3.0 
+  │ └─┬ glob@5.0.15 
+  │   ├─┬ inflight@1.0.6 
+  │   │ └── wrappy@1.0.2 
+  │   ├── inherits@2.0.3 
+  │   ├─┬ minimatch@3.0.4 
+  │   │ └─┬ brace-expansion@1.1.8 
+  │   │   ├── balanced-match@1.0.0 
+  │   │   └── concat-map@0.0.1 
+  │   ├── once@1.4.0 
+  │   └── path-is-absolute@1.0.1 
+  ├── grunt-known-options@1.1.0 
+  ├─┬ nopt@3.0.6 
+  │ └── abbrev@1.1.1 
+  └── resolve@1.1.7 
+
+zhaoshuai:~ Ivan$ grunt -v
+grunt-cli: The grunt command line interface (v1.2.0)
+
+Fatal error: Unable to find local grunt.
+
+If you're seeing this message, grunt hasn't been installed locally to
+your project. For more information about installing and configuring grunt,
+please see the Getting Started guide:
+
+http://gruntjs.com/getting-started
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/gruntapp 
+zhaoshuai:gruntapp Ivan$ clear
+
+zhaoshuai:gruntapp Ivan$ npm init --yes
+Wrote to /Users/lanou3g/Desktop/gruntapp/package.json:
+
+{
+  "name": "gruntapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+zhaoshuai:gruntapp Ivan$ cnpm install grunt --save
+✔ Installed 1 packages
+✔ Linked 88 latest versions
+✔ Run 0 scripts
+✔ All packages installed (91 packages installed from npm registry, used 10s, speed 86.57kB/s, json 89(123.23kB), tarball 737.18kB)
+zhaoshuai:gruntapp Ivan$ grunt
+Warning: Task "default" not found. Use --force to continue.
+
+Aborted due to warnings.
+zhaoshuai:gruntapp Ivan$ grunt
+Warning: Task "default" not found. Use --force to continue.
+
+Aborted due to warnings.
+zhaoshuai:gruntapp Ivan$ grunt
+Warning: Task "default" not found. Use --force to continue.
+
+Aborted due to warnings.
+zhaoshuai:gruntapp Ivan$ grunt
+Warning: Task "default" not found. Use --force to continue.
+
+Aborted due to warnings.
+zhaoshuai:gruntapp Ivan$ grunt
+Running "default" task
+在终端运行Grunt命令就会运行这句话
+Done.
+zhaoshuai:gruntapp Ivan$ cnpm install grunt-contrib-cssmin --save
+✔ Installed 1 packages
+✔ Linked 11 latest versions
+✔ Run 0 scripts
+✔ All packages installed (8 packages installed from npm registry, used 5s, speed 26.6kB/s, json 12(27.09kB), tarball 97.9kB)
+zhaoshuai:gruntapp Ivan$ grunt
+Running "cssmin:combine" (cssmin) task
+>> 1 file created. 50 B → 37 B
+
+Done.
+zhaoshuai:gruntapp Ivan$ cnpm install grunt-contrib-uglify --save
+✔ Installed 1 packages
+✔ Linked 23 latest versions
+✔ Run 0 scripts
+✔ All packages installed (18 packages installed from npm registry, used 11s, speed 41.27kB/s, json 24(43.32kB), tarball 394.27kB)
+zhaoshuai:gruntapp Ivan$ grunt
+Running "cssmin:combine" (cssmin) task
+>> 1 file created. 50 B → 37 B
+
+Running "uglify:dist" (uglify) task
+>> 1 file created 56 B → 50 B
+
+Done.
+
+
+

@@ -1,0 +1,142 @@
+Last login: Wed Oct 25 08:58:36 on console
+zhaoshuai:~ Ivan$ sudo cnpm install gulp -g
+Password:
+Downloading gulp to /usr/local/lib/node_modules/gulp_tmp
+Copying /usr/local/lib/node_modules/gulp_tmp/_gulp@3.9.1@gulp to /usr/local/lib/node_modules/gulp
+Installing gulp's dependencies to /usr/local/lib/node_modules/gulp/node_modules
+[1/13] archy@^1.0.0 installed at node_modules/_archy@1.0.0@archy
+[2/13] pretty-hrtime@^1.0.0 installed at node_modules/_pretty-hrtime@1.0.3@pretty-hrtime
+[3/13] deprecated@^0.0.1 installed at node_modules/_deprecated@0.0.1@deprecated
+[4/13] interpret@^1.0.0 installed at node_modules/_interpret@1.0.4@interpret
+[5/13] minimist@^1.1.0 installed at node_modules/_minimist@1.2.0@minimist
+[6/13] semver@^4.1.0 installed at node_modules/_semver@4.3.6@semver
+[7/13] tildify@^1.0.0 installed at node_modules/_tildify@1.2.0@tildify
+[8/13] v8flags@^2.0.2 installed at node_modules/_v8flags@2.1.1@v8flags
+[9/13] chalk@^1.0.0 installed at node_modules/_chalk@1.1.3@chalk
+[10/13] orchestrator@^0.3.0 installed at node_modules/_orchestrator@0.3.8@orchestrator
+[11/13] gulp-util@^3.0.0 installed at node_modules/_gulp-util@3.0.8@gulp-util
+[12/13] vinyl-fs@^0.3.0 installed at node_modules/_vinyl-fs@0.3.14@vinyl-fs
+[13/13] liftoff@^2.1.0 installed at node_modules/_liftoff@2.3.0@liftoff
+deprecate vinyl-fs@0.3.14 › glob-stream@3.1.18 › minimatch@^2.0.1 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate vinyl-fs@0.3.14 › glob-watcher@0.0.6 › gaze@0.5.2 › globule@0.1.0 › minimatch@~0.2.11 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate vinyl-fs@0.3.14 › glob-watcher@0.0.6 › gaze@0.5.2 › globule@0.1.0 › glob@3.1.21 › graceful-fs@~1.2.0 graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+Recently updated (since 2017-10-18): 1 packages (detail see file /usr/local/lib/node_modules/gulp/node_modules/.recently_updates.txt)
+  Today:
+    → liftoff@2.3.0 › resolve@^1.1.7(1.5.0) (08:52:19)
+All packages installed (180 packages installed from npm registry, used 47s, speed 22.4kB/s, json 162(186.66kB), tarball 859.25kB)
+[gulp@3.9.1] link /usr/local/bin/gulp@ -> /usr/local/lib/node_modules/gulp/bin/gulp.js
+zhaoshuai:~ Ivan$ gulp -v
+[10:46:43] CLI version 3.9.1
+zhaoshuai:~ Ivan$ cd /Users/lanou3g/Desktop/gulpapp 
+zhaoshuai:gulpapp Ivan$ npm
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/lanou3g/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 /usr/local/lib/node_modules/npm
+zhaoshuai:gulpapp Ivan$ npm init --yes
+Wrote to /Users/lanou3g/Desktop/gulpapp/package.json:
+
+{
+  "name": "gulpapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+zhaoshuai:gulpapp Ivan$ cnpm install gulp --save
+✔ Installed 1 packages
+✔ Linked 162 latest versions
+✔ Run 0 scripts
+deprecate gulp@3.9.1 › vinyl-fs@0.3.14 › glob-stream@3.1.18 › minimatch@^2.0.1 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate gulp@3.9.1 › vinyl-fs@0.3.14 › glob-watcher@0.0.6 › gaze@0.5.2 › globule@0.1.0 › minimatch@~0.2.11 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate gulp@3.9.1 › vinyl-fs@0.3.14 › glob-watcher@0.0.6 › gaze@0.5.2 › globule@0.1.0 › glob@3.1.21 › graceful-fs@~1.2.0 graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+Recently updated (since 2017-10-18): 1 packages (detail see file /Users/lanou3g/Desktop/gulpapp/node_modules/.recently_updates.txt)
+  Today:
+    → gulp@3.9.1 › liftoff@2.3.0 › resolve@^1.1.7(1.5.0) (08:52:19)
+✔ All packages installed (181 packages installed from npm registry, used 1m, speed 16.64kB/s, json 163(192.35kB), tarball 858.83kB)
+zhaoshuai:gulpapp Ivan$ gulp
+/Users/lanou3g/Desktop/gulpapp/gulpfile.js:16
+gulp.tesk('default',() => {
+     ^
+
+TypeError: gulp.tesk is not a function
+    at Object.<anonymous> (/Users/lanou3g/Desktop/gulpapp/gulpfile.js:16:6)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Liftoff.handleArguments (/usr/local/lib/node_modules/gulp/bin/gulp.js:116:3)
+    at Liftoff.<anonymous> (/usr/local/lib/node_modules/gulp/node_modules/_liftoff@2.3.0@liftoff/index.js:198:16)
+zhaoshuai:gulpapp Ivan$ gulp
+[11:00:07] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[11:00:07] Starting 'default'...
+default必须这么写才是默认任务
+[11:00:07] Finished 'default' after 138 μs
+zhaoshuai:gulpapp Ivan$ gulp message
+[11:03:59] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[11:03:59] Starting 'message'...
+执行具体任务,需要在终端中运行 gulp message(任务名)
+[11:03:59] Finished 'message' after 115 μs
+zhaoshuai:gulpapp Ivan$ gulp
+[11:04:55] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[11:04:55] Starting 'default'...
+default必须这么写才是默认任务
+[11:04:55] Finished 'default' after 116 μs
+zhaoshuai:gulpapp Ivan$ cnpm install gulp-copy --save-dev
+✔ Installed 1 packages
+✔ Linked 3 latest versions
+✔ Run 0 scripts
+✔ All packages installed (1 packages installed from npm registry, used 2s, speed 6.42kB/s, json 4(12.08kB), tarball 3.89kB)
+zhaoshuai:gulpapp Ivan$ -v
+-bash: -v: command not found
+zhaoshuai:gulpapp Ivan$ gulp-copy -v
+-bash: gulp-copy: command not found
+zhaoshuai:gulpapp Ivan$ gulp copyHtml
+[11:25:14] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[11:25:14] Starting 'copyHtml'...
+[11:25:14] Finished 'copyHtml' after 7.92 ms
+zhaoshuai:gulpapp Ivan$ cnpm install gulp-imagemin --save-dev
+✔ Installed 1 packages
+✔ Linked 237 latest versions
+  ✔ jpegtran pre-build test passed successfully
+  ✔ optipng pre-build test passed successfully
+  ✔ gifsicle pre-build test passed successfully
+✔ Run 3 scripts
+Recently updated (since 2017-10-18): 4 packages (detail see file /Users/lanou3g/Desktop/gulpapp/node_modules/.recently_updates.txt)
+✔ All packages installed (223 packages installed from npm registry, used 33s, speed 50.59kB/s, json 238(301.98kB), tarball 1.32MB)
+zhaoshuai:gulpapp Ivan$ gulp imageMin
+[11:46:27] Using gulpfile ~/Desktop/gulpapp/gulpfile.js
+[11:46:27] Starting 'imageMin'...
+[11:46:27] Finished 'imageMin' after 8.81 ms
+[11:46:27] gulp-imagemin: Minified 4 images (saved 116 kB - 3.9%)
+zhaoshuai:gulpapp Ivan$ 
